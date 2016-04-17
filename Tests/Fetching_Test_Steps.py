@@ -15,10 +15,10 @@ class Fetching_Test_Steps(object):
 
     def Run_Test_Steps(self):
 
-        for test_Cases_To_Execute in self.test_Cases_To_Execute:
+        for test_Case_To_Execute in self.test_Cases_To_Execute:
 
-            if "on_LOGIN" in test_Cases_To_Execute:
-                print os.system("python ./Test_Steps/" + test_Cases_To_Execute + ".py")
+            if "on_LOGIN" in test_Case_To_Execute:
+                print os.system("python ./Test_Steps/" + test_Case_To_Execute + ".py ")
 
             # os.system("python ")
 
